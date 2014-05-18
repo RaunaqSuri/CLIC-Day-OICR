@@ -1,7 +1,7 @@
 CLIC-Day-OICR
 =============
 
-NOTE: You cannot properly view the website unless you are connected to OICR Intrane
+NOTE: You cannot properly view the website unless you are connected to OICR Intranet
 
 A project we developed for our internal OICR hackathon (April 24-25, 2014). We got first place!
 
