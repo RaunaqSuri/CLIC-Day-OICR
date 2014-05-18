@@ -16,3 +16,13 @@ The current iteration can be viewed at:
 http://raunaqsuri.github.io/ibctvscreen
 
 This project uses the framework reveal.js (https://github.com/hakimel/reveal.js/)
+
+###Common Problems
+
+  **The picture won't load!**
+  
+  If the picture won't load, that most likely means you are not connected to the OICR intranet. The pictures are accessed from the staff directory
+  
+  **Seqware/Wormbase/etc. stats aren't loading!**
+  
+  Refresh the page to see if it works. If it still doesn't work, please submit a bug to this repository.
