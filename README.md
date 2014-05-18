@@ -1,6 +1,8 @@
 CLIC-Day-OICR
 =============
 
+NOTE: You cannot properly view the website unless you are connected to OICR Intrane
+
 A project we developed for our internal OICR hackathon (April 24-25, 2014). We got first place!
 
 The main idea was to display screens on the kitchen TV that will inform OICR members about other OICR members and their works in the hope to build a stronger community.
