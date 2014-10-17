@@ -11,7 +11,7 @@ $(document).ready(function() {
     
 var codeFrequencyUrl = "https://api.github.com/repos/seqware/seqware/stats/code_frequency"
 var codeFrequency = {
-    dataset:[0,0,1],
+    dataset:[1197152,826324,0],
     color:["#2ecc71","#e74c3c","#ecf0f1"],
     label:["+","-"]
 };
@@ -42,6 +42,8 @@ function processLastData (data){
     
 //process code frequency Url
 function processCodeFrequency (data){
+    codeFrequency.dataset[0]=0
+    codeFrequency.dataset[1]=0
     codeFrequency.dataset[2]=0;
     for (var i=0; i<data.length; i++){
         codeFrequency.dataset[0] += data[i][1];
@@ -141,7 +143,7 @@ function displayCodeFrequency(data){
 
 var codeFrequencyUrlWB = "https://api.github.com/repos/wormbase/website/stats/code_frequency"
 var codeFrequencyWB = {
-    dataset:[0,0,1],
+    dataset:[7857766,7164815,1],
     color:["#2ecc71","#e74c3c","#ecf0f1"],
     label:["+","-"]
 };
@@ -154,6 +156,8 @@ $.getJSON(codeFrequencyUrlWB,function(data){
     
 //process code frequency Url
 function processCodeFrequencyWB (data){
+    codeFrequencyWB.dataset[0]=0;
+    codeFrequencyWB.dataset[1]=0;
     codeFrequencyWB.dataset[2]=0;
     for (var i=0; i<data.length; i++){
         codeFrequencyWB.dataset[0] += data[i][1];
