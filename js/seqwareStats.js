@@ -20,6 +20,9 @@ var latestData = {
     "changes": ["Additions", "Deletions"],
     "values" : latestDataChanges
 };
+
+displayCodeFrequency(codeFrequency); //display default code frequency
+
 //process code frequencyUrl
 $.getJSON(codeFrequencyUrl,function(data){
     processCodeFrequency(data);
